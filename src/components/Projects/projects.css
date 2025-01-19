@@ -1,0 +1,226 @@
+.projects {
+  /* background: url(./img/bg2.png)no-repeat center center; */
+  background-size: cover;
+  background: #021f31;
+  padding: 4% 0 5%;
+}
+
+.projects h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
+  /* line-height: 12px; */
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 70px;
+}
+
+.project_types {
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+
+.project_types ul {
+  gap: 16px;
+  margin-bottom: 70px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_types_name {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+.project_types_name span {
+  text-transform: uppercase;
+}
+
+.mark_names {
+  border: 1px solid #27dde3;
+  background: rgba(204, 204, 204, 0.1);
+  border-radius: 100px;
+  color: #fff;
+  padding: 12px 3rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.project_content {
+  padding: 0;
+  background: none;
+}
+
+.content-panel {
+  border: 1px solid #27dde3;
+  background: transparent;
+  border-radius: 20px;
+  color: #ebfafa;
+  padding: 2rem 4rem 3rem;
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  /* Slightly slide the content down */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+@media(max-width:600px){
+  .content-panel{
+    padding: 2rem;
+  }
+}
+
+.content-panel.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  /* Bring content back to its original position */
+}
+
+.short-desc {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  color: #ebfafa;
+  /* color: #e8fdfb; */
+  margin-bottom: 25px;
+}
+
+.project-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/*js for tab panel*/
+.content-panel {
+  display: none;
+}
+
+.content-panel.active {
+  display: block;
+}
+
+.border-bottom-style {
+  display: none;
+  height: 2px;
+  background: #27dde3;
+  /* Underline color */
+  width: 40%;
+}
+
+.border-bottom-style {
+  border-bottom: 3px solid #27dde3;
+  position: absolute;
+  width: 120px;
+  bottom: -10px;
+  left: 25%;
+  right: 25%;
+}
+
+.border-bottom-style.active {
+  display: block;
+}
+
+/*js for tab panel*/
+.project_show {
+  background: transparent;
+  padding: 0px 10px;
+  height: 100%;
+}
+
+.project-heading {
+  background: #5F9EA0;
+  padding: 2px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.project-heading span {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.project-content {
+  background: rgba(95, 158, 160,0.1);
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 3px solid #5F9EA0;
+  /* border-left: 2px solid #5F9EA0;
+  border-right: 2px solid #5F9EA0; */
+  border-top: 0;
+}
+.project-content p{margin-bottom: .5rem;}
+.tool-edit {
+  background: #666;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.project-content h3 {
+  font-size: .95rem;
+}
+
+.project-content p {
+  font-size: .95rem;
+}
+
+.img_preview {
+  margin-top: 5px;
+  height: 150px;
+  width: 100%;
+}
+.content-panel a{
+  display: block;
+  color: dodgerblue;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/* .see_projects{
+    border: none;
+    outline: none;
+    background: #27dde3;
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+   } */
+/* ///////////////////////////////// */
+/* ///////////////////////////////// */
+/* ///////////////////////////////// */
+/* .project_main_div {
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project_main_div.show {
+    height: 450px; 
+    opacity: 1;
+  }
+  
+  .project_main_div.hide {
+    height: 0;
+    opacity: 0;
+  } */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
