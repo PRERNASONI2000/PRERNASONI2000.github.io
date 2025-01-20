@@ -1,0 +1,63 @@
+footer{
+    /* background: #f8f9fa; */
+    background: url(./img/bg.jpg)no-repeat;
+    background-size: 100% 100%;
+    padding: 3% 0 2%;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+}
+a{
+    cursor:pointer;
+}
+footer h4{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+footer p{
+    margin-bottom: 18px;
+}
+.faGithub,
+.faLinkedin,
+.faFacebook{
+   position: relative;
+   display: inline-block;
+   padding-bottom: 5px;
+   color: #444;
+}
+.faGithub:hover,
+.faLinkedin:hover,
+.faFacebook:hover{
+    color: #2978b5;
+}
+.faGithub::before,
+.faLinkedin::before,
+.faFacebook::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: transparent;
+    transition: all 0.3s ease-out;
+    left: 0;
+    bottom: 0;
+}
+.faGithub:hover::before,
+.faLinkedin:hover::before,
+.faFacebook:hover::before{
+    background: #2978b5;
+    opacity: .8;
+    width: 100%;
+    right: 0;
+}
+.social{
+    font-size: 1.5rem;
+}
+.social a{
+    margin-right: 8px;
+}
+.copyright{
+    margin-top: 1rem;
+    font-size: 16px;
+    opacity: 0.8;
+}
