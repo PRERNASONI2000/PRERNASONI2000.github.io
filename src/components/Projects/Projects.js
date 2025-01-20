@@ -213,7 +213,7 @@ const Projects = () => {
                 <span className="tool-edit">Img Preview</span>
                 <a target="_blank" href={DD}>Click Here</a>
                 <span className="tool-edit">Live Preview</span>
-                <a target="_blank" href='#'>Click Here</a>
+                <a target="_blank" href='https://naazafsha.github.io/hotelManagement/'>Click Here</a>
               </div>
               <div className="content-panel">
                 <p className="short-desc">

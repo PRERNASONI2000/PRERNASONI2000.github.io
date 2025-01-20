@@ -14,7 +14,7 @@ const About = () => {
           <div className='col-md-12 col-12 text-center'>
             <h1>Hi, I am  <span className='about_name'>Prerna Soni.</span></h1>
             <h3>A Front End Designer.</h3>
-            <p className='about_des'>I’m a passionate web designer and frontend developer skilled in React, HTML, CSS, JavaScript, and UI design. Dedicated to delivering quality work on time, I approach every project with a positive attitude and a focus on excellence. While I’m joyful and friendly, I take my work seriously, ensuring seamless and user-friendly results.</p>
+            <p className='about_des'>As a React frontend developer, I specialize in creating dynamic, responsive web applications that deliver smooth, engaging user experiences. Using React, along with HTML, CSS, and JavaScript, I build fast, scalable components that bring designs to life. My focus is on crafting intuitive, visually appealing websites that perform seamlessly across all devices and browsers. I combine creativity with technical expertise to deliver impactful web experiences.</p>
             <hr />
             <div className='about_contact'>
               <a  href={resume} rel='noopener noreferrer' target='_blank' className='btn-outline'>
