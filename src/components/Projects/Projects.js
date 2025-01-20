@@ -56,7 +56,7 @@ const Projects = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 col-12">
-            <h2 className="text-center">Here is My Works </h2>
+            <h2 className="text-center">Here are My Works </h2>
           </div>
           <div className="col-md-12 col-12">
             <div className="project_types">
