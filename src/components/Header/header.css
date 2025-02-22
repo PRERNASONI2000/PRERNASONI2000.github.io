@@ -1,0 +1,11 @@
+header{
+    margin: 0 auto;
+    height:7em;
+    justify-content: space-between;
+}
+
+@media(max-width:600px){
+    header{
+        height: 4em;
+    }
+}

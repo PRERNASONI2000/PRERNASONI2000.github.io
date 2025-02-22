@@ -1,0 +1,109 @@
+hr{
+    border-top: 1px solid #2978b5;
+    opacity: .1;
+}
+.about{
+    padding: 0% 0 4%;
+}
+.about h1,
+.about h3{
+    font-size: 4rem;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
+}
+.about_name{
+    color: #2978b5;
+    font-size: 4rem;
+}
+.about h3{
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+}
+.about_des{
+    margin-top: 2.3rem;
+    font-size: 1.2rem;
+    color: #444;
+    width: 600px;
+    display: inline-block;
+    text-align: left;
+}
+@media (max-width:600px){
+    .about_des{
+        margin-top: 2.3rem;
+        font-size: 1.2rem;
+        color: #444;
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+}
+.about_contact{
+    margin-top: 0rem;
+    text-align: center;
+}
+.about_contact a{
+    margin-left: 12px;
+}
+.faGithub,
+.faLinkedin,
+.faFacebook{
+   position: relative;
+   display: inline-block;
+   padding-bottom: 5px;
+   color: #444;
+}
+.faGithub:hover,
+.faLinkedin:hover,
+.faFacebook:hover{
+    color: #2978b5;
+}
+.faGithub::before,
+.faLinkedin::before,
+.faFacebook::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: transparent;
+    transition: all 0.3s ease-out;
+    left: 0;
+    bottom: 0;
+}
+.faGithub:hover::before,
+.faLinkedin:hover::before,
+.faFacebook:hover::before{
+    background: #2978b5;
+    opacity: .8;
+    width: 100%;
+    right: 0;
+}
+.btn-outline{
+    border: 2px solid #2978b5;
+    color: #2978b5;
+    outline: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px 16px;
+    position: relative;
+    background: transparent;
+}
+.btn-outline:hover{
+    color: #fff;
+}
+.btn-outline::before{
+    content: '';
+    position: absolute;
+    background: #2978b5;
+    bottom: 0;
+    color: #2978b5;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    transition: right 0.3s ease-in-out;
+}
+.btn-outline:hover::before{
+  right: 0;
+}
